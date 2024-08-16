@@ -1,0 +1,39 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+    
+    &.btn-primary,
+    &.btn-secondary{
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 7px;
+    }
+
+    &.btn-primary{
+        color: var(--primary);
+        background: 0;
+        border: 2px solid var(--primary);
+
+        &:hover{
+            background: var(--primary-010);
+            color: var(--white);
+            border: 2px solid var(--primary-010);
+        }
+    }
+
+    &.btn-secondary{
+        color: var(--white);
+        background: var(--secondary);
+        border: 2px solid var(--secondary);
+
+        &:hover{
+            color: var(--secondary);
+            background: var(--black);
+            border: 2px solid var(--secondary-010);
+        }
+    }
+}
