@@ -1,0 +1,39 @@
+:host {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+    .container-add {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: rox;
+        gap: 20px;
+    }
+
+    .card1, .card2 {
+        width: 48%; /* Ajuste a largura conforme necessário */
+        padding: 10px;
+        border: 1px solid var(--primary);
+        border-radius: 7px;
+        background-color: var(--black-010); /* Ajuste a cor de fundo se necessário */
+        color: var(--white);
+    }
+
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 16px;
+        color: var(--accent);
+    }
+}
